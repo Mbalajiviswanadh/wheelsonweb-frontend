@@ -1,0 +1,113 @@
+.landing-page-container {
+  position: relative;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 2%;
+  min-height: 100vh;
+}
+
+.topbar {
+  padding: 15px 0;
+  color: #333;
+}
+.web-img{
+  margin-top: 20%;
+}
+
+
+h1 span{
+  font-size: 150%;
+}
+.btn-success {
+  background-color: #00a64e;
+  border-color: #00a64e;
+}
+
+.btn-outline-light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-small {
+  font-size: 0.8rem;
+}
+
+.btn-primary {
+  background-color: #0dc143;
+  border-color: #0dc143;
+}
+
+.web-section {
+  min-height: 80vh;
+  margin-top: 20px;
+}
+
+.web-image {
+  max-width: 100%;
+  height: auto;
+}
+.matter{
+  margin-top: 20%;
+  margin-left: 10%;
+}
+.rentnow button{
+  background-color: #339c5b;
+  color: #fff;
+  border: none;
+  height: 50px;
+  width: 130px;
+  font-size: large;
+}
+.earnwithus button{
+  background-color: #339c5b;
+  color: #fff;
+  border: none;
+  height: 50px;
+  width: 140px;
+  font-size: large;
+}
+.back img{
+  margin-top: 20%;
+  box-shadow: rgb(95, 196, 88) 0px 20px 30px -10px;
+}
+.registernow button{
+  background-color: #339c5b;
+  color: #fff;
+  border: none;
+  height: 50px;
+  width: 140px;
+  font-size: large;
+}
+
+.web-title-part {
+  font-weight: bold;
+}
+.buttons button{
+  padding: 10px;
+  margin-left: 10%;
+}
+
+.buttons button:hover{
+  background-color: #000d6b;
+
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8em;
+  }
+
+  .btn-success,
+  .btn-outline-light,
+  .btn-small,
+  .btn-primary {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

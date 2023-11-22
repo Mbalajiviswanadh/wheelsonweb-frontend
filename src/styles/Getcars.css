@@ -1,0 +1,154 @@
+.cars-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    margin: 30px; /* Added margin around the grid */
+  }
+  .back-button{
+    color: #fff;
+    background-color: #000d6b;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .back-button:hover{
+    background-color: #0DC143;
+    color: #fff;
+  }
+  .car-card {
+    background: #cae3ef;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .checkbox{
+    margin-left: 40%;
+  }
+  .checkbox {
+  display: none;
+}
+
+.checkbox + label {
+  margin-left: 50%;
+  position: relative;
+  padding-left: 30px; 
+  cursor: pointer;
+  font-size: 16px; 
+  color: red; 
+}
+
+.checkbox + label:before {
+  content: '';
+  position: absolute;
+  
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+  border: 2px solid #000d6b; /* Border color */
+  background-color: #fff; /* Background color when not checked */
+  border-radius: 4px; /* Adjust as needed for rounded corners */
+  transition: background-color 0.3s ease-in-out;
+}
+
+.checkbox:checked + label:before {
+  background-color: #0dc143; /* Background color when checked */
+  border-color: #0dc143; /* Border color when checked */
+}
+
+.checkbox + label i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px; /* Adjust icon size */
+  color: #000d6b; /* Icon color */
+  opacity: 0; /* Hide the icon by default */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.checkbox:checked + label i {
+  opacity: 1; /* Show the icon when checked */
+}
+/* .checkbox:checked +label{
+  opacity: 0;
+} */
+
+  .car-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px; /* Top-left corner */
+     border-top-right-radius: 10px; /* Top-right corner */
+    margin-bottom: 30px;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 17px;
+    transition: transform 0.3s ease-in-out; /* Adding a smooth transition effect */
+
+  }
+  .car-details {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .car-image:hover {
+    transform: scale(1.09); /* Scale the image by 5% on hover */
+    border-bottom: none;
+    box-shadow: rgba(24, 153, 218, 0.56) 0px 22px 70px 4px;  }
+ 
+  
+  .edit-button {
+    background: #000d6b;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  .carinfo{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 10%;
+    
+  }
+
+  .delete-button{
+    background: #000d6b;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+  }
+  .delete-button:hover{
+    background-color:#0DC143 ;
+  }
+  .edit-button:hover{
+    background-color:#0DC143 ;
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .cars-container {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .backlinks{
+      display: block;
+      flex-direction: column;
+      margin-top: 5%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .car-image {
+      height: 200px; /* Adjust the height for larger screens as needed */
+    width: 100%;
+    }
+    
+  }
+  

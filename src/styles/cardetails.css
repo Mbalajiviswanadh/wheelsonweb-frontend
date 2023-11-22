@@ -1,0 +1,68 @@
+/* styles.css */
+
+/* Pay Here section */
+.pay-here-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e8e8e8;
+    box-shadow: rgba(83, 143, 101, 0.56) 0px 22px 70px 4px;
+  }
+
+  .pay-here-section h3:hover{
+    text-decoration: underline #0DC143;
+    cursor: pointer;
+  }
+  .payhere h1{
+    color: #000d6b;
+    padding: 10px;
+  }
+/* cardetails.css */
+
+/* ... (your existing styles) */
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  #right-logo-img {
+    margin-top: -26%;
+    height: 35%;
+    width: 35%;
+    /* Add any additional styles for your logo */
+  }
+  .entry{
+    margin-top: 40px;
+
+  }
+  /* Date and Times section */
+  .date-times-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Total Amount section */
+  .total-amount-section {
+    margin-bottom: 20px;
+  }
+  
+  /* Driver checkbox */
+  .driver-checkbox {
+    margin-bottom: 20px;
+  }
+  
+  /* Reserve Now button */
+  .checkout-reserve-button {
+    background-color: #000d6b;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .checkout-reserve-button:hover {
+    background-color: #0DC143;
+  }
+  
