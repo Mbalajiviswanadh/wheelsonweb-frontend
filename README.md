@@ -16,14 +16,14 @@ WheelsOnWeb allows users to rent cars according to their budget from a specified
 
 Here are the demo images from the site:
 
-| ![Image 1](/images/pic-1.png)   | ![Image 2](/images/pic-2.png)   |
-| ------------------------------- | ------------------------------- |
-| ![Image 3](/images/pic-3.png)   | ![Image 4](/images/pic-4.png)   |
-| ![Image 5](/images/pic-5.png)   | ![Image 6](/images/pic-6.png)   |
-| ![Image 7](/images/pic-7.png)   | ![Image 8](/images/pic-8.png)   |
-| ![Image 9](/images/pic-9.png)   | ![Image 10](/images/pic-10.png) |
-| ![Image 11](/images/pic-11.png) | ![Image 12](/images/pic-12.png) |
-| ![Image 13](/images/pic-13.png) | ![Image 14](/images/pic-14.png) |
+| ![Image 1](/images/pic-1.png) | ![Image 2](/images/pic-2.png) |
+|-------------------------------|-------------------------------|
+| ![Image 3](/images/pic-3.png) | ![Image 4](/images/pic-4.png) |
+| ![Image 5](/images/pic-5.png) | ![Image 7](/images/pic-7.png) |
+| ![Image 8](/images/pic-8.png) | ![Image 9](/images/pic-9.png) |
+| ![Image 10](/images/pic-10.png) | ![Image 11](/images/pic-11.png) |
+| ![Image 12](/images/pic-12.png) | ![Image 13](/images/pic-13.png) |
+| ![Image 14](/images/pic-14.png) |
 
 ---
 
